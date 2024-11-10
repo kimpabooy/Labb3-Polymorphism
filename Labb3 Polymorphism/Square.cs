@@ -9,7 +9,13 @@
             OneSide = 5;
             Shape = "Fyrkant";
         }
-        // A = OneSide^2
+        
+        // Area = OneSide^2
         public override double Area() => Math.Pow(OneSide, 2);
+
+        //public override double Area()
+        //{
+        //    return Math.Pow(OneSide, 2);
+        //}
     }
 }

@@ -2,7 +2,7 @@
 {
     public abstract class Geometry
     {
-        public string Shape { get; set; }
+        public string Shape { get; set; } = "No shape found";
         public abstract double Area();
     }
 }

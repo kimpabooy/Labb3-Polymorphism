@@ -10,7 +10,13 @@
             Hight = 3;
             Shape = "Rektangel";
         }
-        // Area = Bas * Höjd
+        
+        // Area = Base * Hight
         public override double Area() => Base * Hight;
+
+        //public override double Area()
+        //{
+        //    return Base * Hight;
+        //}
     }
 }
